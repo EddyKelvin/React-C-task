@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import HomeScreen from "./HomeScreen";
 
 
-test('Displays a heading', () => {
+test('Displays button correctly', () => {
   render(<HomeScreen />);
   const heading = screen.getByRole('button', { 
     name: /Calculate/i 
